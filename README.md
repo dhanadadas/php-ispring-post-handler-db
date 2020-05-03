@@ -2,4 +2,4 @@
 POST обработчик для ispring + созданный опрос
 
 https://strategy2030.rane-brf.ru/opros2 опрос + обработчик ispring
-Настройки базы данных \data\includes\db.php. Используется плагин Red Been PHP
+Настройки базы данных \data\includes\db.php. Используется XML парсер и плагин Red Been PHP
