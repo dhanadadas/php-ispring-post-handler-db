@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 1024 768 --><!--version 8.7.0.21274 --><!--type flash --><!--mainFolder ../ --><!--content quiz --><!--universal -->
+<html>
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="msapplication-tap-highlight" content="no" />
+	<title>Тест Службы Ветиранарии Хабаровского края</title>
+	<script src="data/isplayer.js"></script>
+	<script src="lms.js"></script>
+	<style>html, body {background-color:#30566B; overflow: hidden;}</style>
+</head>
+<body>
+<div id="content"></div>
+<script>
+	(function(){
+		var ldr = new ispring.quiz.loader.FlashQuizLoaderWithAPI((function(start){
+	var params = {
+		quizId: "",
+		flags: 3,
+		resumeMode: "prompt",  
+		tincan:
+		{
+			endPoint: "",
+			auth:
+			{
+				type: "",
+				key: "",
+				login: "",
+				password: "",
+				name: "",
+				email: ""
+			},
+			i18n:{
+}
+		},
+		scorm2004:
+		{
+			edition: ""
+		}
+	};
+
+	var lms = iSpring.quiz.LMS.create("1.2", params);
+	lms.initialize(start);
+}));
+		ldr.quizInitEvent().addHandler(function(player){
+			(function(player){
+	var lms = iSpring.quiz.LMS.instance();
+	lms.start(player);
+	
+	var v = (function() {
+	  var ua = window.navigator.userAgent;
+	  var msie = ua.indexOf('MSIE ');
+	  if (msie > 0) {
+		return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+	  }
+	  var trident = ua.indexOf('Trident/');
+	  if (trident > 0) {
+		var rv = ua.indexOf('rv:');
+		return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+	  }
+	  var edge = ua.indexOf('Edge/');
+	  if (edge > 0) {
+		return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+	  }
+	  return -1;
+	})();
+
+	var unloadHandler = function()
+	{
+		lms.closeLms();
+	};
+	
+	window.onunload = unloadHandler;
+	if (v < 0 || v > 10)
+		window.onbeforeunload = unloadHandler;
+})(player);
+		});
+		ldr.load("data/movie.swf", "content", "quiz", 1024, 768);
+	})();
+</script>
+</body>
+</html>

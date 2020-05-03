@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<presentation guid="3F37E1B2-F515-4FA8-9EBE-4BB4BE093CE7" version="0" availableOffline="1">
+	<info>
+		<title>Опрос бизнес-сообщества по СТРАТЕГИЯ 2030</title>
+		<description/>
+	</info>
+	<files index="id27" thumbnail="id30" totalSize="4043901">
+		<file id="id0">data/movie.swf</file>
+		<file id="id1">data/flash.png</file>
+		<file id="id2">data/flash-required.html</file>
+		<file id="id3">data/isplayer.js</file>
+		<file id="id4">flash.html</file>
+		<file id="id5">data/img2B07BF81-D051-42A5-8B46-98A3E022F498.jpg</file>
+		<file id="id6">data/fnt1.woff</file>
+		<file id="id7">data/fnt1.ttf</file>
+		<file id="id8">data/fnt2.woff</file>
+		<file id="id9">data/fnt2.ttf</file>
+		<file id="id10">data/fnt3.woff</file>
+		<file id="id11">data/fnt3.ttf</file>
+		<file id="id12">data/fnt4.woff</file>
+		<file id="id13">data/fnt4.ttf</file>
+		<file id="id14">data/fnt5.woff</file>
+		<file id="id15">data/fnt5.ttf</file>
+		<file id="id16">data/fnt6.woff</file>
+		<file id="id17">data/fnt6.ttf</file>
+		<file id="id18">data/fnt7.woff</file>
+		<file id="id19">data/fnt7.ttf</file>
+		<file id="id20">data/fnt8.woff</file>
+		<file id="id21">data/fnt8.ttf</file>
+		<file id="id22">data/fnt9.woff</file>
+		<file id="id23">data/fnt9.ttf</file>
+		<file id="id24">data/player.js</file>
+		<file id="id25">data/apple-touch-icon.png</file>
+		<file id="id26">data/favicon.ico</file>
+		<file id="id27">index.html</file>
+		<file id="id28">data/html5.png</file>
+		<file id="id29">data/html5-unsupported.html</file>
+		<file id="id30">data/ismplayer/preview.png</file>
+		<file id="id31">data/ismplayer/play.svg</file>
+		<file id="id32">data/ismplayer/style.css</file>
+		<file id="id33">data/ismplayer/style_mini.css</file>
+		<file id="id34">ismplayer.html</file>
+		<file id="id35">data/ismplayer/app_store2x.png</file>
+		<file id="id36">metainfo.xml</file>
+	</files>
+</presentation>

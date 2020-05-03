@@ -1,0 +1,5 @@
+
+AuthName 'Restricted Area'
+AuthType Basic
+AuthUserFile /home/b/bfrane/.authfile
+Require user grnp13
